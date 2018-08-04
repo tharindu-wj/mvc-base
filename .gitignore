@@ -1,0 +1,17 @@
+# Application
+.idea/*git
+.idea/*
+composer.lock
+.idea/workspace.xml
+/.idea
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+composer.lock
+

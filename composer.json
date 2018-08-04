@@ -1,0 +1,27 @@
+{
+    "name": "tharindu-wj/mvc-base",
+    "type": "project",
+    "license": "MIT",
+    "description": "base classes for mvc framework",
+    "authors": [
+        {
+            "name": "Tharindu Wickramasinghe",
+            "email": "tharinduw@eight25media.com",
+            "homepage": "https://github.com/tharindu-wj/mvc-base"
+        }
+    ],
+    "keywords": [
+        "php","cache"
+    ],
+    "support": {
+        "issues": "https://github.com/tharindu-wj/mvc-basee/issues"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MvcBase\\": "src/"
+        }
+    }
+}
