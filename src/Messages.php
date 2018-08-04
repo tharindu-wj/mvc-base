@@ -5,6 +5,9 @@
  * Date: 7/15/18
  * Time: 6:24 PM
  */
+
+namespace MvcBase;
+
 class Messages{
     public static function setMsg($text, $type){
         if($type == 'error'){

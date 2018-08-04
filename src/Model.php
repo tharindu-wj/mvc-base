@@ -6,6 +6,8 @@
  * Time: 4:23 PM
  */
 
+namespace MvcBase;
+
 abstract class Model{
     protected $dbh;
     protected $stmt;

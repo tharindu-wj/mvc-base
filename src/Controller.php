@@ -6,6 +6,8 @@
  * Time: 4:41 PM
  */
 
+namespace MvcBase;
+
 abstract class Controller{
     protected $request;
     protected $action;

@@ -6,6 +6,8 @@
  * Time: 5:13 PM
  */
 
+namespace MvcBase;
+
 class Bootstrap{
     private $controller;
     private $action;
